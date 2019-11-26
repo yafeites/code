@@ -1,11 +1,22 @@
 package problems;
 
 public class Node {
+
+    Node pre;
+
     int value;
     Node next;
     Node left;
     Node right;
     Node parent;
+
+    public Node getPre() {
+        return pre;
+    }
+
+    public void setPre(Node pre) {
+        this.pre = pre;
+    }
 
     public int getValue() {
         return value;

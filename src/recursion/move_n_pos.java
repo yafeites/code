@@ -1,5 +1,5 @@
 package recursion;
-
+//将string中的前n个数逆序放在最后
 public class move_n_pos {
     public static void main(String[] args) {
         move("12345",2);

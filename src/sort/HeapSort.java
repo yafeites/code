@@ -13,11 +13,11 @@ public class HeapSort {
         }
         int heapSize=arr.length;
 //        每次将最大值的节点与数组中最后的数值进行交换，并且将调上来的数进行下调
-        function.swap(arr,0,heapSize--);
+        function.swap(arr,0,--heapSize);
         while(heapSize>0)
         {
             heapify(arr,0,heapSize);
-            function.swap(arr,0,heapSize--);
+            function.swap(arr,0,--heapSize);
         }
     }
 

@@ -4,6 +4,27 @@ import javax.swing.tree.TreeNode;
 import java.util.Stack;
 
 public class Tree_Order {
+
+    public static void main(String[] args) {
+        Node node1=new Node(3);
+        Node node2=new Node(4);
+        Node node3=new Node(5);
+        Node node4=new Node(6);
+        Node node5=new Node(2);
+
+        node1.left=node5;
+        node1.right=node3;
+        node3.left=node2;
+        node3.right=node4;
+        inOrderRecur(node1);
+//        while (prenode!=null)
+//        {
+//            System.out.println(prenode.value);
+//            prenode=prenode.left;
+//        }
+
+    }
+//    static  Node prenode=null;
 //    递归先序
     public  static  void preOrderRecur(Node node)
     {
@@ -46,7 +67,14 @@ public class Tree_Order {
             return;
         }
         inOrderRecur(node.left);
-        System.out.println(node.value);
+//        if(prenode!=null)
+//        {
+//            prenode.right=node;
+//        }
+//        node.left=prenode;
+//        prenode=node;
+//        System.out.println(node.value);
+
         inOrderRecur(node.right);
     }
 //    中序的非递归实现
