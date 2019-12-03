@@ -29,11 +29,11 @@ public class Money_Problem {
                 dp[i][j]=dp[i+1][j];
                 if(j+arr[j]<=aim)
                 {
-                    dp[i][j]=dp[i][j]||dp[i+1][j+arr[j]];
+                    dp[i][j]=dp[i][j]||dp[i+1][j+arr[i]];
                 }
             }
         }
-        return  false;
+        return  dp[0][0];
 
     }
 }

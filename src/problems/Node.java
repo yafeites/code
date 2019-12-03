@@ -2,13 +2,13 @@ package problems;
 
 public class Node {
 
-    Node pre;
+    public Node pre;
 
-    int value;
-    Node next;
-    Node left;
-    Node right;
-    Node parent;
+    public int value;
+    public Node next;
+    public Node left;
+    public Node right;
+    public Node parent;
 
     public Node getPre() {
         return pre;
@@ -58,7 +58,7 @@ public class Node {
         this.rnd = rnd;
     }
 
-    Node rnd;
+    public Node rnd;
     public Node next()
     {
         return this.next;

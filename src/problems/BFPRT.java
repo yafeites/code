@@ -2,6 +2,7 @@ package problems;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+//找寻数组中第k大的数
 //bfprt算法首先寻找数组中的中位数然后再将此中位数作为标志位进行快排处理
 public class BFPRT {
     public  static  int bfprt(int arr[],int k)

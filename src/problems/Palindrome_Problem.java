@@ -1,5 +1,5 @@
 package problems;
-
+//判断是否为回文数
 public class Palindrome_Problem {
     public static  boolean isPalindrome(int n)
     {
