@@ -1,4 +1,4 @@
-package recursion;
+package dynamic;
 
 public class MaxDamage {
     public  static  int  maxdamage(int []arr,int sum)

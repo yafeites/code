@@ -1,4 +1,4 @@
-package recursion;
+package dynamic;
 
 public class MinPath {
     public static int minPath(int[][]matrix)

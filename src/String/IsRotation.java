@@ -1,4 +1,4 @@
-package recursion;
+package String;
 
 public class IsRotation {
     public  static boolean isRotation(String s1,String s2)

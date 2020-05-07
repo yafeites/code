@@ -1,4 +1,4 @@
-package recursion;
+package dynamic;
 //最长递增序列
 public class Longest_Increasing_Path_in_a_Matrix {
     public  static  int  process(int [][]arr)

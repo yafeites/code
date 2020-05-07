@@ -1,4 +1,4 @@
-package recursion;
+package dynamic;
 //每个骑士和每条龙都有其武力值,一旦骑士的武力值大于龙的武力值就可以杀掉他
 //但需要付出武力值同等的金币,如果可以使骑士合力砍龙,使得所付金币最少需要的武力值是多少
 public class Kill_Dragon {

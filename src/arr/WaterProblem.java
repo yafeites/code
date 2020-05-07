@@ -1,4 +1,4 @@
-package recursion;
+package arr;
 
 public class WaterProblem {
     public  static  int getwater(int []arr)

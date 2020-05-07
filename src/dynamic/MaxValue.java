@@ -1,5 +1,5 @@
-package recursion;
-
+package dynamic;
+//背包问题
 public class MaxValue {
     public static  int maxvalue(int weight[],int value[],int bag)
     {

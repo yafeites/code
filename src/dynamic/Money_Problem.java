@@ -1,4 +1,4 @@
-package recursion;
+package dynamic;
 //给定一个数组,判断是否有机会使得数组中的数字和aim
 public class Money_Problem {
     public static boolean money1(int arr[],int aim)

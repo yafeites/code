@@ -1,4 +1,4 @@
-package recursion;
+package arr;
 //求数组中子数组和的最大值
 public class SubArrayMaxSum {
 //    从数组第一个判断,如果当前累加和小于0则重置为0,并用max存储最大累加和
